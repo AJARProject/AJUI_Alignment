@@ -1,0 +1,28 @@
+# 4D project architecture
+######################
+
+Data
+Logs
+DerivedData
+Settings
+userPreferences.*
+Project/Trash
+backup.4DSettings
+
+# Don't need the data file, indexes, symbols, or journal
+*.4DD
+*.4DIndx
+*.4DIndy
+*symbols.txt
+*.journal
+*.Match
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

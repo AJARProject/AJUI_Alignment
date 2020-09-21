@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<compiler>
+			<typage default_for_numeric="1"/>
+			<options compilation_path="1" symbol_file="true"/>
+		</compiler>
+		<server>
+			<network>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<database>
+			<misc standard_xpath="false"/>
+		</database>
+	</com.4d>
+</preferences>

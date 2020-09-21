@@ -1,0 +1,53 @@
+{
+  "id": "container",
+  "display": "flex|absolute",
+  "direction": "row|column|row-reverse|column-reverse",
+  "wrap": "nowrap|wrap|wrap-reverse",
+  "justifyContent": "flex-start|flex-end|center|space-between|space-around|space-evenly",
+  "alignItems": "stretch|flex-start|flex-end|center",
+  "alignContent": "stretch|flex-start|flex-end|center|space-between|space-around|space-evenly",
+  "padding": 1,
+  "items": [
+    {
+      "id": "item1",
+      "order": 1
+    },
+    {
+      "id": "item2",
+      "order": 2
+    },
+    {
+      "id": "item3",
+      "order": 4,
+      "width": 200,
+      "heigh": 200,
+      "margin": 3,
+      "marginRight": 1,
+      "marginTop": 2,
+      "marginLeft": 3,
+      "marginBottom": 4,
+      "maxWidth": 300,
+      "maxHeigh": 300,
+      "minWidth": 100,
+      "minHeigh": 100
+    },
+    {
+      "id": "item4",
+      "order": 3,
+      "display": "flex|absolute",
+      "direction": "row|column|row-reverse|column-reverse",
+      "wrap": "nowrap|wrap|wrap-reverse",
+      "justifyContent": "flex-start|flex-end|center|space-between|space-around",
+      "alignItems": "stretch|flex-start|flex-end|center",
+      "alignContent": "flex-start|flex-end|center|space-between|space-around",
+      "items": [
+        {
+          "id": "subItem1"
+        },
+        {
+          "id": "subItem2"
+        }
+      ]
+    }
+  ]
+}

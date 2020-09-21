@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Flexbox</title>
+</head>
+<style type="text/css">
+	#container{
+		border:2px dashed red;
+		height:90vh;
+		display:flex;
+		flex-direction: row;
+		flex-wrap:nowrap;
+		justify-content: flex-start;
+		align-items:flex-start;
+		align-content: flex-start;
+	}
+	.items{
+		flex-grow: 1;
+		/*height:100px;*/
+		/*min-width:70px;*/
+		/*max-width:30px;*/
+		width:120px;
+		border:0px dotted green;
+		margin:3px;
+	}
+	.items:nth-child(1n)
+	{
+		background-color: orange;
+	}
+	.items:nth-child(1)
+	{
+		background-color: red;
+	}
+
+	.items:nth-child(2n)
+	{
+		background-color: blue;
+		height:150px;
+	}
+
+	.items:nth-child(3n)
+	{
+		background-color: gray;
+		height:50px;
+	}
+	#item1{
+		/*margin-right:30px;*/
+		max-width: 200px;
+	}
+	#item2{
+		/*margin-right:30px;*/
+		max-width: 300px;
+	}
+	#item3{
+		/*margin-right:30px;*/
+		max-width: 30px;
+	}
+	#item4{
+		/*margin-right:30px;*/
+		max-width: 150px;
+	}
+</style>
+<body>
+
+	<div id="container">
+		<div id="item1" class="items">aaaa</div>
+		<div id="item2" class="items">aaaa</div>
+		<div id="item3" class="items">aaaa</div>
+		<div id="item4" class="items">aaaaaaaaa</div>
+		<div id="item5" class="items">aaaaaaaaa</div>
+	<!-- 	<div id="item6" class="items">aaaaaaaaa</div>
+		<div id="item7" class="items">aaaaaaaa</div>
+		<div id="item8" class="items">aaaaaaaa</div>
+		<div id="item9" class="items">aaaaaa</div>
+		<div id="item10" class="items">aaaaaa</div> -->
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,1691 @@
+﻿{
+	"destination": "detailScreen",
+	"formSizeAnchor": "rect_size",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"container": {
+					"type": "rectangle",
+					"top": 262,
+					"left": 504,
+					"width": 549,
+					"height": 392,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent",
+					"strokeDashArray": "1 1"
+				},
+				"rect_size": {
+					"type": "rectangle",
+					"top": 663,
+					"left": 1059,
+					"width": 20,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 17,
+					"left": 335,
+					"width": 56,
+					"height": 30,
+					"text": "Update",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 25,
+					"left": 411,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.container",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 25,
+					"left": 460,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.itemTotal",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 63,
+					"left": 19,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item1",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 63,
+					"left": 68,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item2",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 63,
+					"left": 117,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item3",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 63,
+					"left": 166,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item4",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 62,
+					"left": 215,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item5",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 62,
+					"left": 264,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item6",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 62,
+					"left": 313,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item7",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 62,
+					"left": 362,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item8",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 62,
+					"left": 411,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item9",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 62,
+					"left": 460,
+					"width": 35,
+					"height": 17,
+					"dataSource": "Form:C1466.item10",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 106,
+					"left": 22,
+					"width": 75,
+					"height": 16,
+					"text": "row",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 106,
+					"left": 104,
+					"width": 90,
+					"height": 16,
+					"text": "nowrap",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 106,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "flex-start",
+					"focusable": false,
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button16": {
+					"type": "button",
+					"top": 106,
+					"left": 284,
+					"width": 79,
+					"height": 16,
+					"text": "flex-start",
+					"focusable": false,
+					"method": "ObjectMethods/Button16.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 126,
+					"left": 22,
+					"width": 75,
+					"height": 16,
+					"text": "row-reverse",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 126,
+					"left": 104,
+					"width": 90,
+					"height": 16,
+					"text": "wrap",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 126,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "flex-end",
+					"focusable": false,
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button17": {
+					"type": "button",
+					"top": 126,
+					"left": 284,
+					"width": 79,
+					"height": 16,
+					"text": "flex-end",
+					"focusable": false,
+					"method": "ObjectMethods/Button17.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 146,
+					"left": 22,
+					"width": 75,
+					"height": 16,
+					"text": "column",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 146,
+					"left": 104,
+					"width": 90,
+					"height": 16,
+					"text": "wrap-reverse",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button12": {
+					"type": "button",
+					"top": 146,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "center",
+					"focusable": false,
+					"method": "ObjectMethods/Button12.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button18": {
+					"type": "button",
+					"top": 146,
+					"left": 284,
+					"width": 79,
+					"height": 16,
+					"text": "center",
+					"focusable": false,
+					"method": "ObjectMethods/Button18.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 166,
+					"left": 22,
+					"width": 75,
+					"height": 16,
+					"text": "col reverse",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button13": {
+					"type": "button",
+					"top": 166,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "space-between",
+					"focusable": false,
+					"method": "ObjectMethods/Button13.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button19": {
+					"type": "button",
+					"top": 166,
+					"left": 284,
+					"width": 79,
+					"height": 16,
+					"text": "stretch",
+					"focusable": false,
+					"method": "ObjectMethods/Button19.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button14": {
+					"type": "button",
+					"top": 186,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "space-around",
+					"focusable": false,
+					"method": "ObjectMethods/Button14.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 186,
+					"left": 374,
+					"width": 96,
+					"height": 40,
+					"text": "Reset Form",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button15": {
+					"type": "button",
+					"top": 206,
+					"left": 199,
+					"width": 79,
+					"height": 16,
+					"text": "space-evenly",
+					"focusable": false,
+					"method": "ObjectMethods/Button15.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 231,
+					"left": 16,
+					"width": 62,
+					"height": 17,
+					"dataSource": "counter",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 231,
+					"left": 88,
+					"width": 62,
+					"height": 17,
+					"dataSource": "ms",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 231,
+					"left": 162,
+					"width": 87,
+					"height": 17,
+					"dataSource": "ms/counter",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "###.###",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"item_1": {
+					"type": "input",
+					"top": 699,
+					"left": 60,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_1.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_2": {
+					"type": "input",
+					"top": 708,
+					"left": 63,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_2.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_3": {
+					"type": "input",
+					"top": 717,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_3.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_4": {
+					"type": "input",
+					"top": 726,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_4.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_5": {
+					"type": "input",
+					"top": 735,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_5.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_6": {
+					"type": "input",
+					"top": 744,
+					"left": 60,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_6.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_7": {
+					"type": "input",
+					"top": 754,
+					"left": 61,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_7.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_8": {
+					"type": "input",
+					"top": 762,
+					"left": 61,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_8.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_9": {
+					"type": "input",
+					"top": 770,
+					"left": 61,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_9.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_10": {
+					"type": "input",
+					"top": 778,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_10.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_11": {
+					"type": "input",
+					"top": 783,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_11.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_12": {
+					"type": "input",
+					"top": 788,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_12.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_13": {
+					"type": "input",
+					"top": 793,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_13.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_14": {
+					"type": "input",
+					"top": 798,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_14.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_15": {
+					"type": "input",
+					"top": 803,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_15.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_16": {
+					"type": "input",
+					"top": 808,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_16.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_17": {
+					"type": "input",
+					"top": 813,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_17.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_18": {
+					"type": "input",
+					"top": 818,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_18.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_19": {
+					"type": "input",
+					"top": 823,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_19.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_20": {
+					"type": "input",
+					"top": 828,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_20.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_21": {
+					"type": "input",
+					"top": 833,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_21.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_22": {
+					"type": "input",
+					"top": 838,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_22.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_23": {
+					"type": "input",
+					"top": 843,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_23.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_24": {
+					"type": "input",
+					"top": 848,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_24.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_25": {
+					"type": "input",
+					"top": 853,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_25.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_26": {
+					"type": "input",
+					"top": 858,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_26.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_27": {
+					"type": "input",
+					"top": 863,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_27.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_28": {
+					"type": "input",
+					"top": 868,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_28.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_29": {
+					"type": "input",
+					"top": 873,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_29.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_30": {
+					"type": "input",
+					"top": 878,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_30.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_31": {
+					"type": "input",
+					"top": 883,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_31.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_32": {
+					"type": "input",
+					"top": 888,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_32.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_33": {
+					"type": "input",
+					"top": 893,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_33.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_34": {
+					"type": "input",
+					"top": 898,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_34.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_35": {
+					"type": "input",
+					"top": 903,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_35.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_36": {
+					"type": "input",
+					"top": 908,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_36.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_37": {
+					"type": "input",
+					"top": 913,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_37.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_38": {
+					"type": "input",
+					"top": 918,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_38.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_39": {
+					"type": "input",
+					"top": 923,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_39.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_40": {
+					"type": "input",
+					"top": 928,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_40.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_41": {
+					"type": "input",
+					"top": 933,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_41.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_42": {
+					"type": "input",
+					"top": 938,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_42.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_43": {
+					"type": "input",
+					"top": 943,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_43.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_44": {
+					"type": "input",
+					"top": 948,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_44.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_45": {
+					"type": "input",
+					"top": 953,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_45.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_46": {
+					"type": "input",
+					"top": 958,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_46.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_47": {
+					"type": "input",
+					"top": 963,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_47.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_48": {
+					"type": "input",
+					"top": 968,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_48.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_49": {
+					"type": "input",
+					"top": 973,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_49.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_50": {
+					"type": "input",
+					"top": 978,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_50.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_51": {
+					"type": "input",
+					"top": 983,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_51.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_52": {
+					"type": "input",
+					"top": 988,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_52.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_53": {
+					"type": "input",
+					"top": 993,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_53.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_54": {
+					"type": "input",
+					"top": 998,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_54.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_55": {
+					"type": "input",
+					"top": 1003,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_55.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_56": {
+					"type": "input",
+					"top": 1008,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_56.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_57": {
+					"type": "input",
+					"top": 1013,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_57.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_58": {
+					"type": "input",
+					"top": 1018,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_58.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_59": {
+					"type": "input",
+					"top": 1023,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_59.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"item_60": {
+					"type": "input",
+					"top": 1028,
+					"left": 64,
+					"width": 81,
+					"height": 33,
+					"fill": "#FFB6C1",
+					"borderStyle": "dotted",
+					"hideFocusRing": true,
+					"multiline": "yes",
+					"wordwrap": "normal",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/item_60.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 27,
+					"left": 22,
+					"width": 100
+				},
+				"Line1": {
+					"type": "line",
+					"top": 37,
+					"left": 22,
+					"width": 50
+				},
+				"Line2": {
+					"type": "line",
+					"top": 17,
+					"left": 22,
+					"width": 200
+				},
+				"Text": {
+					"type": "text",
+					"top": 88,
+					"left": 22,
+					"width": 61,
+					"height": 14,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"text": "direction"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 88,
+					"left": 104,
+					"width": 61,
+					"height": 14,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"text": "wrap"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 88,
+					"left": 199,
+					"width": 86,
+					"height": 14,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"text": "justify-content"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 88,
+					"left": 284,
+					"width": 86,
+					"height": 14,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 11,
+					"text": "align-items"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 214,
+					"left": 88,
+					"width": 34,
+					"height": 17,
+					"text": "ms"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 214,
+					"left": 13,
+					"width": 16,
+					"height": 17,
+					"text": "nb"
+				}
+			}
+		}
+	]
+}

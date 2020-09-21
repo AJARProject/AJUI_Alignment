@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="AJUI_Alignment" uuid="38F59942B9734AC7A32E327A8FB559DA" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="AJUI_Alignment" structure_file_name="AJUI_Alignment" data_file_path="AJUI_Alignment.4DD">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

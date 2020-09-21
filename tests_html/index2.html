@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Flexbox</title>
+</head>
+<style type="text/css">
+	#container{
+		border:2px dashed red;
+		height:200px;
+		width:600px;
+		display:flex;
+		flex-flow: column wrap;
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+	.items{
+		background-color: silver;
+		margin: 2px;
+		font-size: 43px;
+		text-align: center;
+		width:40px;
+	}
+	#item1{
+		/*flex-grow: 2;*/
+		/*flex-shrink:2;*/
+	}
+	#item2{
+		/*width:60px;*/
+		flex-basis:100px;
+		/*flex-grow: 1;*/
+		/*flex-shrink:1;*/
+	}
+	#item3{
+		width:40px;
+	}
+	#item4{
+		width:60px;
+	}
+</style>
+<body>
+
+	<div id="container">
+		<div id="item1" class="items">1</div>
+		<div id="item2" class="items">2</div>
+		<div id="item3" class="items">3</div>
+		<div id="item4" class="items">4</div>
+	</div>
+
+</body>
+</html>

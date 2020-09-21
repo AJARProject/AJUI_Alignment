@@ -1,0 +1,189 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 5,
+					"left": 7,
+					"width": 940,
+					"height": 660,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "transparent"
+				},
+				"item1": {
+					"type": "input",
+					"top": 26,
+					"left": 25,
+					"width": 174,
+					"height": 30,
+					"dataSource": "Variable",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterEdit"
+					]
+				},
+				"item2": {
+					"type": "input",
+					"top": 26,
+					"left": 242,
+					"width": 174,
+					"height": 30,
+					"dataSource": "Variable",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onAfterEdit"
+					]
+				},
+				"btn1": {
+					"type": "button",
+					"top": 25,
+					"left": 436,
+					"width": 118,
+					"height": 31,
+					"text": "Button",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn2": {
+					"type": "button",
+					"top": 25,
+					"left": 580,
+					"width": 118,
+					"height": 31,
+					"text": "Button",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"lb1": {
+					"type": "listbox",
+					"top": 129,
+					"left": 84,
+					"width": 354,
+					"height": 303,
+					"resizingMode": "legacy",
+					"listboxType": "currentSelection",
+					"movableRows": false,
+					"highlightSet": "$ListboxSet",
+					"table": 1,
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"width": 131,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1"
+							},
+							"footer": {
+								"name": "Footer1",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column2",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2"
+							},
+							"footer": {
+								"name": "Footer2",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Column3",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3"
+							},
+							"footer": {
+								"name": "Footer3",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}
