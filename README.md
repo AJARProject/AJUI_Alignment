@@ -29,7 +29,7 @@ Not everything is yet implemented :
 | maxWidth | ✅ |
 | items (recursive) | ✅ |
 
-The purpose was to provide something similar to what we have with CSS flexbox. But more I tried to implement the same more it became complicated. That is why I started up from scratch and went down to `justifyContent` and stopped (because of lack of time also). Maybe we should not try to have something to much complicated and what we have today is enough.
+The purpose was to provide something similar to what we have with CSS flexbox. But more I tried to implement the same more it became complicated. That is why I started up from scratch and went down to `justifyContent` and stopped (because of lack of time also). Maybe we should not try to have something too much complicated and what we have today is enough.
 
 The code is not too much factorized because it will slow down a lot the execution cycle (tried during the devlopment phase). The purpose is to execute the alignment during the `On Resize` event so it must be really fast not to make the resizing be laggy. Maybe it is even possible to speed up the execution by doing some optimization (`for` instead of `for each`?)
 
